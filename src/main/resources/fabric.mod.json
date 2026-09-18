@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "surround-addon",
+  "version": "${version}",
+  "name": "Surround Addon",
+  "description": "Adds a SurroundFireworks module to Meteor Client.",
+  "authors": ["you"],
+  "environment": "*",
+  "entrypoints": {
+    "meteor": [
+      "com.example.surroundaddon.SurroundAddon"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
+    "meteor-client": "*"
+  }
+}
